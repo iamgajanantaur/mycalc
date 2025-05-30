@@ -7,6 +7,7 @@ echo "--- Menu ---"
 echo "0. Exit"
 echo "1. Add"
 echo "2. Sub"
+echo "3. Mul"
 echo "------------"
 
 read -p "Enter choice: " choice
@@ -27,6 +28,11 @@ case $choice in
        
 	    res=$((num1 - num2))
 	    echo "Substraction is: $res"
+	;;
+	3)
+       
+	    res=$((num1 * num2))
+	    echo "Multiplication is: $res"
 	;;
     
     
