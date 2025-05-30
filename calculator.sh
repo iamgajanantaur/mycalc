@@ -8,8 +8,8 @@ echo "0. Exit"
 echo "1. Add"
 echo "2. Sub"
 echo "3. Mul"
-echo "4. Modulus"
-echo "5. Div"
+echo "4. Div"
+echo "5. Modulus"
 echo "------------"
 
 read -p "Enter choice: " choice
