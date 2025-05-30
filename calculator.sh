@@ -8,6 +8,7 @@ echo "0. Exit"
 echo "1. Add"
 echo "2. Sub"
 echo "3. Mul"
+echo "4. Modulus"
 echo "------------"
 
 read -p "Enter choice: " choice
@@ -35,5 +36,9 @@ case $choice in
 	    echo "Multiplication is: $res"
 	;;
     
-    
+    4)
+        res=$((num1 % num2))
+        echo "Reaminder is: $res"
+        ;;
+
 esac
