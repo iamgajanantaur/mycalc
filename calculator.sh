@@ -5,10 +5,10 @@ read -p "Enter second number: " num2
 
 echo "--- Menu ---"
 echo "0. Exit"
-echo "1. Add"
-echo "2. Sub"
-echo "3. Mul"
-echo "4. Div"
+echo "1. Addition"
+echo "2. Subtraction"
+echo "3. Multiplication"
+echo "4. Division"
 echo "5. Modulus"
 echo "------------"
 
