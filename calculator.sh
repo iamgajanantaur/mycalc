@@ -6,6 +6,7 @@ read -p "Enter second number: " num2
 echo "--- Menu ---"
 echo "0. Exit"
 echo "1. Add"
+echo "2. Sub"
 echo "------------"
 
 read -p "Enter choice: " choice
@@ -20,6 +21,12 @@ case $choice in
        
 	    res=$((num1 + num2))
 	    echo "Addition is: $res"
+	;;
+    
+	2)
+       
+	    res=$((num1 - num2))
+	    echo "Substraction is: $res"
 	;;
     
     
